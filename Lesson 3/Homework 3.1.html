@@ -6,28 +6,68 @@
     <style>
         body {
             margin: 0;
-        }
-
-        .main {
-            width: 100vw;
-            height: 100vh;
-            background-color:black;
-
+            overflow: hidden;
         }
 
         .pink {
-            width: 100%;
-            height: 50%;
+            width: 100vw;
+            height: 50vh;
             background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
         }
 
+        .black {
+            width: 100vw;
+            height: 50vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: pink;
+
+        }
+        .text{
+            font-size: 20px;
+            font-family: Arial;
+            width: 50vw;
+            text-align: center;
+
+        }
+        span{
+            font-family: Arial;
+            font-weight:bolder;
+            font-size: 40px;
+        }
 
     </style>
 </head>
 <body>
 <div class="main">
-    <div class="pink"></div>
-
+    <div class="black">
+        <div><span>Section Title</span></div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur autem, consequuntur culpa
+                    deserunt doloribus dolorum enim illo nemo nisi perspiciatis quae quia ratione rem soluta tempora
+                    totam
+                    voluptates voluptatum.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="pink">
+        <div><span>Section Title</span></div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dignissimos distinctio fuga
+                inventore, modi possimus, quidem quisquam sed similique sit soluta velit, voluptate. Assumenda dolores
+                laudantium libero placeat, provident unde.
+            </p>
+        </div>
+    </div>
 </div>
 
 </body>
