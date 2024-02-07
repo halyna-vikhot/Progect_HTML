@@ -4,55 +4,78 @@
     <meta charset="UTF-8">
     <title>HW_3_2</title>
     <style>
-        html{
+        html {
             scroll-behavior: smooth;
         }
-        body{
+
+        body {
             margin: 0;
         }
-        section{
+
+        section {
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            section a{
+            flex-direction: column;
+
+            section a {
+
                 text-decoration: none;
+                text-align: center;
             }
         }
-        #cornflowerblue{
+
+        #cornflowerblue {
             background-color: cornflowerblue;
         }
-        #aquamarine{
+
+        #aquamarine {
             background-color: aquamarine;
         }
-        #coral{
+
+        #coral {
             background-color: coral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bolder;
+        }
+
+        p {
+            margin-top: 150px;
+        }
+
 
     </style>
 </head>
 <body>
 
 <section id="cornflowerblue">
-    <div><h1>Section Title</h1></div>
-    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis esse exercitationem ipsum
-        necessitatibus perferendis quaerat qui repellat, saepe veritatis.</p></div>
     <a href="#aquamarine"><p>&#8595</p></a>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis esse exercitationem ipsum
+        necessitatibus perferendis quaerat qui repellat, saepe veritatis.</p>
 </section>
+
 <section id="aquamarine">
     <a href="#aquamarine"><p>&#8595</p></a>
-    <div><h1>Section Title</h1></div>
-    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid beatae blanditiis cum dolores id
+    <div class="a"><h1>Section Title</h1></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid beatae blanditiis cum dolores id
         incidunt magnam quis unde voluptates! Accusamus assumenda consequuntur dolorum ea facere? Animi cupiditate et
-        nesciunt?</p></div>
+        nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi illum incidunt labore odit
+        quae quam quia similique temporibus unde?</p>
     <a href="#coral"><p></p>&#8595</a>
 </section>
 <section id="coral">
-<div><h1>Section Title</h1></div>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet asperiores aut blanditiis cumque deserunt
-    dolorum eius itaque rem. Magnam!
-    <a href="#cornflowerblue"><p></p>&#8595</a>
-</section>
-</div>
+    <h1>Section Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet asperiores aut blanditiis cumque deserunt
+        dolorum eius itaque rem. Magnam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi delectus est,
+        eum harum quos recusandae saepe sapiente sed veritatis voluptates.</p>
+    <a href="#aquamarine"><p></p>&#8595</a>
 </body>
 </html>
