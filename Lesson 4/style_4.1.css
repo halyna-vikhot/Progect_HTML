@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+}
+
+.one {
+    background-image: url("image 4.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 30vw;
+    height: 40vh;
+}
+
+aside {
+    width: 30vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h1, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
