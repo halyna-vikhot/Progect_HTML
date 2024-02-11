@@ -59,6 +59,10 @@ button {
     color: gray;
     fill: rgba(156, 152, 152, 0.10);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: rgba(217, 217, 217, 0.60);
+    border: 1px solid rgba(156, 152, 152, 0.10);
+
+
 }
 
 .two {
