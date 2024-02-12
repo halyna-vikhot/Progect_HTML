@@ -1,4 +1,4 @@
-.main{
+.main {
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -7,29 +7,45 @@
     align-items: center;
     flex-direction: column;
 
-}
-.block-one{
-    width: 30vw;
-    height: 60vh;
-    border: solid 1px gray;
 
 }
+
+.block-one {
+    width: 30vw;
+    height: 70vh;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
 img {
     width: 20vw;
     height: 15vh;
+
 }
+
 .photo {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.block-two{
+.block-two {
     width: 30vw;
-    height: 20vh;
+    height: 10vh;
     border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
-input[type="text"]{
+
+input[type="text"] {
     width: 25vw;
     height: 5vh;
     border: solid 1px gray;
@@ -37,14 +53,56 @@ input[type="text"]{
     text-overflow: ellipsis;
 
 }
-.button{
+
+.button {
     width: 25vw;
     height: 5vh;
+    color: white;
     background-color: cornflowerblue;
     border: solid 1px cornflowerblue;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.ikon{
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nO2ZzUrDQBDH82S7Vby1JTsoPpAieFBv0qMP4UyEQq03L4KWWh/Am4eASXupYEeiWL9o6W5jdgPzgzku+f/2m00UCYIgBE3DYKwArxTgRANxFaUAJwqor+KkvVZ4beiwqtB6URk8cO557+HhU4Ja1gLFtAlI4NJewODYe3CYV24tEEBo/l4ioEvoxc2dhI86Q767TznLpzyb8Q+CHoGN7YSvb554GTpkgePOcGn44AUGo5RrLZCPX/4E3ju55a3di5Xaexd4/b1imd/XxartvQvYThktAvA/vb6I52wa3gjYMBil9RY47z7WW+D07CE8AdmFQEaAZAppOYlJdiGWbRTkNspyEuu6XSVUyU+L6wlgZi8A1C/7QudcBnv2AnHS9h4cPqoB2IxcKH4u+A6vgPadwn9JUKt4n6/yuV0V3zLYc+55QRCEqCreAAESa+zxbT1rAAAAAElFTkSuQmCC">
+
+.ikon {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+
 }
+
+.article {
+    margin-top: 10px;
+}
+
+.aside {
+    margin-top: 10px;
+}
+
+.section {
+    margin-top: 20px;
+    color: gray;
+}
+
+.password {
+    margin-bottom: 30px;
+
+
+}
+
+.block-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
