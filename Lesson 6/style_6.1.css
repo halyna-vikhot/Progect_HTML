@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+header{
+    width: 100vw;
+    height: 30vh;
+    background-color: gray;
+}
+div{
+    width: 100vw;
+    height: 70vh;
+    background-color: darkslategray;
+    display: flex;
+}
+section{
+    width:80vw;
+    height:70vh ;
+    background-color: darkgrey;
+}
+aside{
+    width:20vw;
+    height:70vh ;
+    background-color: dimgrey;
+}
+ @media screen and(min-width: 300px) and (max-width: 300px){
+    header{
+        height: 25vh;
+    }
+     div{
+         flex-direction: column;
+     }
+   section{
+       height: 70vh;
+   }
+   aside{
+       height: 30vh;
+   }
+}
