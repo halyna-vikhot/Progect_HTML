@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background: #19191B;
+
+}
+main{
+    width: 100vw;
+    height: 85vh;
+    background: #19191B;
+}
