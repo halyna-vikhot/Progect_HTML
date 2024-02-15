@@ -10,6 +10,7 @@ div{
     width: 100vw;
     height: 80vh;
     display: flex;
+
 }
 section{
     width:75vw;
@@ -50,14 +51,33 @@ article {
     header {
         height: 20vh;
     }
-
+div{
+    flex-direction: column;
+}
     section {
         width: 100vw;
+        height: 60vh;
         flex-direction: column;
     }
+aside{
+    width: 100%;
+}
+.B{
+    width: 100vw;
+}
 
+    .C{
+        width:33.3vw;
+    }
+    .D{
+        width:33.3vw;
+    }
+    .E{
+        width:33.3vw;
+    }
     article {
         flex-direction: column;
         width: 100vw;
+        height: 20vh;
     }
 }
