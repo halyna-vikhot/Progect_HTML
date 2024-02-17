@@ -1,29 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    background: #19191B;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+    width: 100% ;
+
 }
 
 header {
     width: 100vw;
     height: 15vh;
-    background: #19191B;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /*align-items: center;*/
+
+}
+.header-menu{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.lato {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 
 header a {
     text-decoration: none;
     margin: 10px;
     font-family: "Lato", sans-serif;
     color: rgba(255, 255, 255, 0.70);
-    text-align:center;
+    text-align: center;
 
 }
 
@@ -46,7 +62,11 @@ h1 {
     font-size: 28px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 button {
     width: 157px;
     height: 44px;
@@ -59,6 +79,9 @@ button {
     font-size: 16px;
     letter-spacing: -0.5px;
     font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -66,8 +89,12 @@ main {
     width: 100vw;
     height: 75vh;
     background: #19191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.block{
+
+.block {
     width: 80vw;
     height: 75vh;
     flex-shrink: 0;
@@ -75,6 +102,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .text {
 
     font-family: "Lato", sans-serif;
@@ -83,6 +111,7 @@ main {
     flex-direction: column;
 
 }
+
 h2 {
     width: 40%;
     color: #FFF;
@@ -93,6 +122,7 @@ h2 {
 
 
 }
+
 p {
     width: 40vw;
     color: rgba(255, 255, 255, 0.70);
@@ -102,14 +132,16 @@ p {
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
 }
-.photo{
+
+.aside> img {
     width: 40vw;
     height: 16%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.but{
+
+.but {
     width: 180px;
     height: 38px;
     border-radius: 4px;
