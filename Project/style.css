@@ -232,6 +232,7 @@ article img {
     width: 695px;
     height: 140px;
     font-size: 60px;
+    line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,6 +326,8 @@ flex-wrap: wrap;
 .footer-text p {
     width: 826px;
     font-size: 60px;
+    line-height: normal;
+
 }
 
 .footer-button {
