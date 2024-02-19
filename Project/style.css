@@ -188,8 +188,8 @@ main {
 }
 
 .video-info h2 {
-    width: 550px;
-   height: 140px;
+    width: 35vw;
+    height: 10vh;
     color: #FFF;
     font-family: Lato, sans-serif;
     font-size: 60px;
@@ -198,8 +198,8 @@ main {
 }
 
 .video-info p {
-    width: 588px;
-    height: 78px;
+    width: 35vw;
+    height: 5vh;
     color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
     font-weight: 400;
@@ -222,12 +222,21 @@ article img {
     height: 100vh;
 
 }
+
+.service-icon {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .title h2 {
     width: 695px;
     height: 140px;
@@ -239,25 +248,28 @@ article img {
 }
 
 .icon {
-    width: 60vw;
-    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-flex-wrap: wrap;
+    width: 60vw;
+    height: 60vh;
+    flex-wrap: wrap;
 
 }
-.icon-oval{
+
+.icon-oval {
+
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .icon img {
     width: 69px;
     height: 69px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -290,9 +302,10 @@ flex-wrap: wrap;
 
 /*---------------------------------------------------four-page-------------------------------------------------*/
 
-.four-page{
+.four-page {
     width: 100vw;
 }
+
 .Portfolio h1 {
     font-family: Lato, sans-serif;
     font-size: 58px;
@@ -301,13 +314,15 @@ flex-wrap: wrap;
     justify-content: flex-start;
     margin-left: 30px;
 }
-.section-four{
+
+.section-four {
     width: 80vw;
     height: 60vh;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
+
 .section-four img {
     width: 336px;
     height: 253px;
@@ -323,6 +338,7 @@ flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .footer-text p {
     width: 826px;
     font-size: 60px;
