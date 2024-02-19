@@ -221,8 +221,6 @@ article img {
     width: 100vw;
     height: 100vh;
 
-
-
 }
 .title {
     display: flex;
@@ -245,13 +243,12 @@ article img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+flex-wrap: wrap;
 
 }
 .icon-oval{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .icon img {
