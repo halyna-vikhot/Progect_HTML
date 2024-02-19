@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,8 +13,12 @@ body {
     font-weight: 400;
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
-    width: 100% ;
-
+    width: 100%;
+/*------------------------------------------first-page---------------------------------------------------------------*/
+}
+.first-page {
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -22,32 +26,15 @@ header {
     height: 15vh;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
 
 }
-.header-menu{
+
+.header-menu {
     width: 80vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-header a {
-    font-size: 18px;
-    text-decoration: none;
-    margin: 10px;
-    font-family: "Lato", sans-serif;
-    color: rgba(255, 255, 255, 0.70);
-    text-align: center;
-
-}
-a:hover{
-    color: #5454D4;
-
-}
-
 .logo {
 
     display: flex;
@@ -59,7 +46,6 @@ a:hover{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
 }
 
 h1 {
@@ -72,12 +58,27 @@ h1 {
     align-items: center;
 }
 
-.header-menu button {
+header a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+
+}
+
+a:hover {
+    color: #5454D4;
+
+}
+
+.first-page-button {
     width: 157px;
     height: 44px;
+    background: #19191B;
     border-radius: 5px;
     border: 1px solid #FFF;
-    background: #19191B;
     backdrop-filter: blur(1px);
     color: #FFF;
     text-align: center;
@@ -99,7 +100,7 @@ main {
     align-items: center;
 }
 
-.block {
+.block-one {
     width: 80vw;
     height: 75vh;
     flex-shrink: 0;
@@ -108,8 +109,8 @@ main {
     align-items: center;
 }
 
-.text {
-
+.text-content {
+    height: 70vh;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     display: flex;
@@ -118,109 +119,103 @@ main {
 
 }
 
-h2 {
-    width: 40%;
+.text-content h2 {
+    width: 582px;
     color: #FFF;
-    font-family: "Lato", sans-serif;
-    font-size: 40px;
+    font-family: Lato, sans-serif;
+    font-size: 80px;
     font-weight: 400;
-    margin: 0;
+    line-height: 84px; /* 105% */
 
 
 }
 
-. text p {
-    width: 50vw;
+.text-content p {
+    width: 536px;
     color: rgba(255, 255, 255, 0.70);
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-size: 21px;
     font-weight: 400;
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
 }
-
-.aside> img {
-    width: 40vw;
-    height: 16%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.but {
-    width: 180px;
-    height: 38px;
+.text-content button {
+    width: 204px;
+    height: 58px;
+    flex-shrink: 0;
     border-radius: 4px;
     background: #5454D4;
     color: #FFF;
-    font-family: "Lato", sans-serif;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
     font-weight: 700;
 }
+/*------------------------------------------second-page--------------------------------------------------------------*/
 
-.video{
+.second-page {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.video-info{
+
+.video-info {
     width: 80vw;
-    height: 20vh;
-    margin-bottom: 20px;
+    height: 15vh;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.video-info h2{
-    width: 40%;
-    font-size: 50px;
-    line-height: 70px; /* 116.667% */
-}
-.video-info p{
+.video-info h2 {
     width: 40vw;
+    height: 20vh;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.video-info p {
+    width: 40vw;
+    height: 20vh;
     color: rgba(255, 255, 255, 0.70);
     font-size: 21px;
     font-weight: 400;
     line-height: 39px; /* 185.714% */
     letter-spacing: -0.657px;
-
 }
-
-article img{
+article img {
     width: 80vw;
-    height: 75vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*----------------------------------------third-page------------------------------------------------------------*/
 
-.block-two{
+.third-page {
     width: 100vw;
     height: 100vh;
 
 }
 .title h2{
     width: 45vw;
-    height: 20vh;
+    height: 30vh;
     font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.aside{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.icon{
+.icon {
     display: flex;
     flex-wrap: wrap;
     width: 80vw;
     height: 50vh;
 }
-.icon img{
+
+.icon img {
     width: 69px;
     height: 69px;
     display: flex;
@@ -228,7 +223,8 @@ article img{
     align-items: center;
 
 }
-.icon h3{
+
+.icon h3 {
     width: 234px;
     height: 34px;
     letter-spacing: -0.75px;
@@ -239,7 +235,8 @@ article img{
     justify-content: center;
     align-items: center;
 }
-.icon p{
+
+.icon p {
     width: 299px;
     display: flex;
     justify-content: center;
@@ -253,7 +250,24 @@ article img{
     letter-spacing: -0.5px;
 }
 
-.block-three h1{
+.aside > img {
+    width: 40vw;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*---------------------------------------------------fourth-page-------------------------------------------------*/
+
+.fourth-page h1 {
     height: 30vh;
     font-family: Lato, sans-serif;
     font-size: 58px;
@@ -263,13 +277,14 @@ article img{
 }
 
 
-.section-three{
-    height:70vh ;
+.section-four {
+    height: 70vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.section-three img{
+
+.section-four img {
     width: 336px;
     height: 253px;
     flex-shrink: 0;
@@ -277,17 +292,19 @@ article img{
 }
 
 
-.section-four{
+.section-four {
     width: 1440px;
     height: 506px;
     display: flex;
 
 }
-.tx{
+
+.tx {
     width: 826px;
     font-size: 60px;
 }
-.bt{
+
+.bt {
     width: 201px;
     height: 60px;
     flex-shrink: 0;
