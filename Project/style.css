@@ -52,7 +52,7 @@ header {
 
 h1 {
     color: #FFF;
-    font-size: 28px;
+    font-size: 6vh;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -61,6 +61,7 @@ h1 {
 }
 
 header a {
+    width: 25vw;
     font-size: 18px;
     text-decoration: none;
     margin: 10px;
@@ -76,8 +77,8 @@ a:hover {
 }
 
 .first-page-button {
-    width: 157px;
-    height: 44px;
+    width: 12vw;
+    height: 5vh;
     background: #19191B;
     border-radius: 5px;
     border: 1px solid #FFF;
@@ -122,7 +123,7 @@ main {
 }
 
 .text-content h2 {
-    width: 582px;
+    width: 35vw;
     color: #FFF;
     font-family: Lato, sans-serif;
     font-size: 80px;
@@ -133,7 +134,7 @@ main {
 }
 
 .text-content p {
-    width: 536px;
+    width: 63vh;
     color: rgba(255, 255, 255, 0.70);
     font-family: Lato, sans-serif;
     font-size: 21px;
@@ -143,8 +144,8 @@ main {
 }
 
 .text-content button {
-    width: 204px;
-    height: 58px;
+    width: 15vw;
+    height: 7vh;
     flex-shrink: 0;
     border-radius: 4px;
     background: #5454D4;
@@ -209,7 +210,7 @@ main {
 
 article img {
     width: 80vw;
-    height: 75vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,6 +226,7 @@ article img {
 
 .service-icon {
     width: 100vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,8 +240,8 @@ article img {
 }
 
 .title h2 {
-    width: 695px;
-    height: 140px;
+    width: 42vw;
+    height: 15vh;
     font-size: 60px;
     line-height: normal;
     display: flex;
@@ -252,13 +254,11 @@ article img {
     justify-content: center;
     align-items: center;
     width: 60vw;
-    height: 60vh;
+    height: 70vh;
     flex-wrap: wrap;
-
 }
 
 .icon-oval {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,16 +266,15 @@ article img {
 }
 
 .icon img {
-    width: 69px;
-    height: 69px;
+    width: 18vw;
+    height: 18vh;
     display: flex;
     flex-wrap: wrap;
 
 }
 
 .icon h3 {
-    width: 234px;
-    height: 34px;
+    width: 12vw;
     letter-spacing: -0.75px;
     font-family: Lato, sans-serif;
     font-size: 28px;
@@ -287,7 +286,7 @@ article img {
 }
 
 .icon p {
-    width: 299px;
+    width: 12vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,25 +306,31 @@ article img {
 }
 
 .Portfolio h1 {
+    width: 42vw;
     font-family: Lato, sans-serif;
     font-size: 58px;
     font-weight: 800;
     display: flex;
     justify-content: flex-start;
-    margin-left: 30px;
+    margin-left: 5vw;
 }
 
 .section-four {
-    width: 80vw;
+    width: 100vw;
     height: 60vh;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-image {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .section-four img {
-    width: 336px;
-    height: 253px;
+    width: 20vw;
     flex-shrink: 0;
     border-radius: 12px;
 }
@@ -333,22 +338,23 @@ article img {
 /*----------------------------------------------footer-------------------------------------------------*/
 .footer {
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    background: rgba(30, 30, 32, 0.50);
 }
 
 .footer-text p {
-    width: 826px;
+    width: 50vw;
     font-size: 60px;
     line-height: normal;
 
 }
 
 .footer-button {
-    width: 201px;
-    height: 60px;
+    width: 15vw;
+    height: 7vh;
     flex-shrink: 0;
     border-radius: 5px;
     background: #5454D4;
@@ -356,8 +362,15 @@ article img {
     font-family: Lato, sans-serif;
     font-size: 21px;
     font-weight: 700;
+
+    color: #FFF;
+}
+
+.footer-enver {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    flex-direction: column;
+
 }
+
