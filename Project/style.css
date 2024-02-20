@@ -240,7 +240,7 @@ article img {
 }
 
 .title h2 {
-    width: 42vw;
+    width: 35vw;
     height: 15vh;
     font-size: 60px;
     line-height: normal;
@@ -251,14 +251,15 @@ article img {
 
 .icon {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     height: 70vh;
     flex-wrap: wrap;
 }
 
 .icon-oval {
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,8 +267,8 @@ article img {
 }
 
 .icon img {
-    width: 18vw;
-    height: 18vh;
+    width: 69px;
+    height: 69px;
     display: flex;
     flex-wrap: wrap;
 
@@ -275,6 +276,7 @@ article img {
 
 .icon h3 {
     width: 12vw;
+    height: 10vh;
     letter-spacing: -0.75px;
     font-family: Lato, sans-serif;
     font-size: 28px;
@@ -286,7 +288,7 @@ article img {
 }
 
 .icon p {
-    width: 12vw;
+    width: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,7 +346,10 @@ article img {
     align-items: center;
     background: rgba(30, 30, 32, 0.50);
 }
-
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+}
 .footer-text p {
     width: 50vw;
     font-size: 60px;
@@ -362,13 +367,12 @@ article img {
     font-family: Lato, sans-serif;
     font-size: 21px;
     font-weight: 700;
-
     color: #FFF;
 }
 
 .footer-enver {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 
