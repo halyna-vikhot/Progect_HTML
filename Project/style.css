@@ -169,7 +169,7 @@ main {
     align-items: center;
 }
 
-/*------------------------------------------page-two--------------------------------------------------------------*/
+/*----------------------------------------------page-two--------------------------------------------------------------*/
 
 .page-two {
     width: 100vw;
@@ -216,7 +216,7 @@ article img {
     align-items: center;
 }
 
-/*----------------------------------------page-three------------------------------------------------------------*/
+/*---------------------------------------------page-three------------------------------------------------------------*/
 
 .page-three {
     width: 100vw;
@@ -276,7 +276,7 @@ article img {
 
 .icon h3 {
     width: 12vw;
-    height: 10vh;
+    height: 8vh;
     letter-spacing: -0.75px;
     font-family: Lato, sans-serif;
     font-size: 28px;
@@ -301,9 +301,9 @@ article img {
     letter-spacing: -0.5px;
 }
 
-/*---------------------------------------------------four-page-------------------------------------------------*/
+/*---------------------------------------------------page-four------------------------------------------------------*/
 
-.four-page {
+.page-four {
     width: 100vw;
 }
 
@@ -327,7 +327,7 @@ article img {
 .portfolio-image {
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -340,24 +340,30 @@ article img {
 /*----------------------------------------------footer-------------------------------------------------*/
 .footer {
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
     background: rgba(30, 30, 32, 0.50);
 }
-.footer-text{
+
+.contact {
+    width: 100vw;
     display: flex;
     justify-content: space-around;
+
 }
-.footer-text p {
-    width: 50vw;
+
+.contact p {
+    width: 60vw;
     font-size: 60px;
     line-height: normal;
 
 }
 
-.footer-button {
+.contact button {
     width: 15vw;
     height: 7vh;
     flex-shrink: 0;
@@ -370,11 +376,16 @@ article img {
     color: #FFF;
 }
 
-.footer-enver {
+.foot {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot p {
+    width: 65vw;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-
 }
+
 
